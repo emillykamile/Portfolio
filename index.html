@@ -37,29 +37,77 @@
           <ul>
             <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
             <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Sobre</span></a></li>
-            <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resumo</span></a></li>
+            <!-- <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resumo</span></a></li> -->
+            <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-certification"></i> <span>Skills</span></a></li>
             <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-            <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Serviços</span></a></li>
+            <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Serviços</span></a></li> -->
             <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contato</span></a></li>
           </ul>
         </nav>
     
       </header>
 
-     <!-- ======= Hero Section ======= -->
+     <!-- ======= Banner Seção ======= -->
     <section id="hero" class="d-flex flex-column justify-content-center">
         <div class="container" data-aos="zoom-in" data-aos-delay="100">
         <h1>Emilly Kamile</h1>
         <p>Eu sou <span class="typed" data-typed-items="Developer, Front-end"></span></p>
         <div class="social-links">
-            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-            <a href="#" class="github"><i class="bx bxl-github"></i></a>
-            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            <!-- <a href="#" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a> -->
+            <a href="https://github.com/emillykamile" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+            <a href="https://www.linkedin.com/in/emillykamile/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
         </div>
-    </section><!-- End Hero -->
+    </section>
 
-    <!-- ======= Skills Section ======= -->
+    <!-- ======= Seção Sobre ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+          <p>Sou apaixonada por tecnologia e conhecimento. Sou mulher, audaciosa, e determinada. Sempre busco conhecimento, e estou em constante evolução, desejo contribuir para a construção de grandes resultados coletivos e individuais, junto com a equipe na qual faço parte.
+            3 palavras que me descrevem bem? Disciplina, foco e empatia.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>UI/UX Designer &amp; Web Developer.</h3>
+            
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Front/Back:</strong> <span>React/Node.js</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Github:</strong> <span>github.com/emillykamile</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Linkedin:</strong> <span>linkedin.com/in/emillykamile</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Cidade:</strong> <span>Paulista, PE</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Idade:</strong> <span>20</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Nível:</strong> <span>Júnior</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>E-mail:</strong> <span>emillykamile.contato@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Cursando:</strong> <span>Desenvolvimento de Sistemas</span></li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              Estudante de Análise e Desenvolvimento de Sistemas, apaixonada por tecnologia.
+              Estou dentro desse universo tech desde meus 16 anos, quando comecei fazendo cursos de Design e Desenvolvimento no Wordpress. 
+              Após entrar na faculdade de Análise e Desenvolvimento de Sistemas (Na qual atualmente estou no 4º período), comecei meus estudos em Java. Depois algum tempo, me encontrei com Javascript, tecnologia a qual dedico uma grande paixão. 
+              Me especializei em Javascript, e atualmente estou me especializando em React e Node.js, em busca de me tornar uma FullStack cada vez mais qualificada.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= Skills ======= -->
     <section id="skills" class="skills section-bg">
         <div class="container" data-aos="fade-up">
   
@@ -68,7 +116,7 @@
             <p>Essas são algumas das tecnologias que tenho conhecimento, a porcentagem se refere ao grau de experiência em projetos.</p>
           </div>
   
-          <div class="row skills-content">
+          <div id="skills" class="row skills-content">
   
             <div class="col-lg-6">
   
@@ -137,7 +185,7 @@
           </div>
   
         </div>
-      </section><!-- End Skills Section -->
+      </section>
 
     <!-- ======= Portfolio ======= -->
     <section id="portfolio" class="portfolio section-bg">
@@ -166,7 +214,7 @@
                 <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>App 1</h4>
-                  <p>App</p>
+                  <p>Front-end</p>
                   <div class="portfolio-links">
                     <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                     <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -180,7 +228,7 @@
                 <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Web 3</h4>
-                  <p>Web</p>
+                  <p>Wordpress</p>
                   <div class="portfolio-links">
                     <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                     <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -194,7 +242,7 @@
                 <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>App 2</h4>
-                  <p>App</p>
+                  <p>Front-end</p>
                   <div class="portfolio-links">
                     <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
                     <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -208,7 +256,7 @@
                 <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Card 2</h4>
-                  <p>Card</p>
+                  <p>Back-end</p>
                   <div class="portfolio-links">
                     <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
                     <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -222,7 +270,7 @@
                 <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Web 2</h4>
-                  <p>Web</p>
+                  <p>Wordpress</p>
                   <div class="portfolio-links">
                     <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
                     <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -236,7 +284,7 @@
                 <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>App 3</h4>
-                  <p>App</p>
+                  <p>Front-end</p>
                   <div class="portfolio-links">
                     <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
                     <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -250,7 +298,7 @@
                 <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Card 1</h4>
-                  <p>Card</p>
+                  <p>Back-end</p>
                   <div class="portfolio-links">
                     <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
                     <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -264,7 +312,7 @@
                 <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Card 3</h4>
-                  <p>Card</p>
+                  <p>Back-end</p>
                   <div class="portfolio-links">
                     <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
                     <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -278,7 +326,7 @@
                 <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>Web 3</h4>
-                  <p>Web</p>
+                  <p>Wordpress</p>
                   <div class="portfolio-links">
                     <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                     <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -290,7 +338,7 @@
           </div>
   
         </div>
-      </section><!-- Fim da seção portfolio -->
+      </section>
 
      <!-- ======= Seção de Serviços =======
      <section id="services" class="services">
@@ -387,7 +435,7 @@
       </section>Fim de Serviços -->
 
     <!-- ======= Contato ======= -->
-    <!-- <section id="contact" class="contact">
+    <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
   
           <div class="section-title">
@@ -401,7 +449,7 @@
                 <div class="address">
                   <i class="bi bi-geo-alt"></i>
                   <h4>Localização:</h4>
-                  <p>Recife, Pernambuco - Brasil</p>
+                  <p>Paulista, Pernambuco - Brasil</p>
                 </div>
   
                 <div class="email">
@@ -445,7 +493,7 @@
           </div>
   
         </div>
-      </section>Fim de contato  -->
+      </section>
   
 
     <!--Footer / Copyright -->

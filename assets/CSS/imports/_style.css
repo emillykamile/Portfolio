@@ -42,13 +42,13 @@ body {
   
   .back-to-top i {
     font-size: 28px;
-    color: #fff;
+    color:#fff;
     line-height: 0;
   }
   
   .back-to-top:hover {
     background: #fd5800;
-    color: #fff;
+    color:#fff;
   }
   
   .back-to-top.active {
@@ -203,7 +203,7 @@ body {
     .nav-menu a span,
     .nav-menu a:focus span {
       display: none;
-      color: #fff;
+      color:#fff;
     }
   }
   
@@ -211,7 +211,7 @@ body {
   .nav-menu .active,
   .nav-menu .active:focus,
   .nav-menu li:hover>a {
-    color: #fff;
+    color:#fff;
     background: #fd5800;
   }
   
@@ -219,13 +219,13 @@ body {
   .nav-menu .active span,
   .nav-menu .active:focus span,
   .nav-menu li:hover>a span {
-    color: #fff;
+    color:#fff;
   }
   
   .nav-menu a:hover,
   .nav-menu li:hover>a {
     width: 100%;
-    color: #fff;
+    color:#fff;
   }
   
   .nav-menu a:hover span,
@@ -394,27 +394,30 @@ body {
   
   .section-title p {
     margin-bottom: 0;
-    color: #f6f6f6;
+    color:#C9D1D9;
+    
   }
   
   /*--------------------------------------------------------------
   # Sobre
   --------------------------------------------------------------*/
-  /* .about .content h3 {
+  .about .content h3 {
     font-weight: 700;
     font-size: 26px;
-    color: #728394;
+    color:#C9D1D9;
   }
   
   .about .content ul {
     list-style: none;
     padding: 0;
+    
   }
   
   .about .content ul li {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
+    color:#C9D1D9;
   }
   
   .about .content ul strong {
@@ -430,12 +433,15 @@ body {
   
   .about .content p:last-child {
     margin-bottom: 0;
+    color: #C9D1D9;
   }
+
+  
    */
-  /*--------------------------------------------------------------
+  /* --------------------------------------------------------------
   # Contador
   --------------------------------------------------------------*/
-  /* .facts .count-box {
+    .facts .count-box {
     padding: 30px 30px 25px 30px;
     margin-top: 30px;
     width: 100%;
@@ -451,7 +457,7 @@ body {
     transform: translateX(-50%);
     font-size: 24px;
     background: #fd5800;
-    color: #fff;
+    color:#C9D1D9;
     border-radius: 50px;
     display: inline-flex;
     align-items: center;
@@ -472,7 +478,7 @@ body {
     margin: 0;
     font-family: "Raleway", sans-serif;
     font-size: 14px;
-  } */
+  }
   
   /*--------------------------------------------------------------
   # Skills
@@ -508,7 +514,7 @@ body {
     height: 10px;
     transition: 0.9s;
     background-color: #fd5800;
-  }
+  } 
   
   /*--------------------------------------------------------------
   # Resumo
@@ -1012,18 +1018,18 @@ body {
   /*--------------------------------------------------------------
   # Contato
   --------------------------------------------------------------*/
-  /* .contact .info {
+   .contact .info {
     width: 100%;
-    background: #fff;
+    background: #0D1117;
   }
   
   .contact .info i {
     font-size: 20px;
-    color: #0563bb;
+    color: #fd5800;
     float: left;
     width: 44px;
     height: 44px;
-    background: #eef7ff;
+    background: #0D1117;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1036,14 +1042,14 @@ body {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
-    color: #45505b;
+    color: #F6F6F6;
   }
   
   .contact .info p {
     padding: 0 0 0 60px;
     margin-bottom: 0;
     font-size: 14px;
-    color: #728394;
+    color: #9FA6AD;
   }
   
   .contact .info .email,
@@ -1054,13 +1060,13 @@ body {
   .contact .info .email:hover i,
   .contact .info .address:hover i,
   .contact .info .phone:hover i {
-    background: #0563bb;
+    background: #fd5800;
     color: #fff;
   }
   
   .contact .email-form {
     width: 100%;
-    background: #fff;
+    background: #0D1117;
   }
   
   .contact .email-form .form-group {
@@ -1125,7 +1131,7 @@ body {
   }
   
   .contact .email-form button[type=submit] {
-    background: #0563bb;
+    background: #FD5800;
     border: 0;
     padding: 10px 35px;
     color: #fff;
@@ -1134,8 +1140,8 @@ body {
   }
   
   .contact .email-form button[type=submit]:hover {
-    background: #0678e3;
-  } */
+    background: #FD5830;
+  }
   
   @-webkit-keyframes animate-loading {
     0% {
